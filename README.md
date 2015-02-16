@@ -9,7 +9,7 @@ This is a demo of how to build a basic image loading app that keeps track of the
 You can review the following key files below:
 
  * [ImageLinksCount](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinkCount.java) - This is the model representing the table storing the links and the open counts.
- * [ImageLinksCountDatabase](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinksCountDatabase.java) - The `SQLiteOpenHelper` that creates and opens a connection to the underlying database.
+ * [ImageLinksCountDatabase](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinksCountDatabase.java) - The `SQLiteOpenHelper` that creates and opens a connection to the database.
  * [ImageLoaderLibrary](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLoaderLibrary.java) - Simple image loader library built from scratch on top of basic. `HttpURLConnection`
  * [MainActivity](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/MainActivity.java) - The activity which brings this app together.
 

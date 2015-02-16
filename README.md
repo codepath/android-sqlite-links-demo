@@ -8,14 +8,14 @@ This is a demo of how to build a basic image loading app that keeps track of the
 
 You can review the following key files below:
 
- * [ImageLinksCount](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinkCount.java) - This is the model representing the table storing the links and the open counts.
- * [ImageLinksCountDatabase](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinksCountDatabase.java) - The `SQLiteOpenHelper` that creates and opens a connection to the database.
- * [ImageLoaderLibrary](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLoaderLibrary.java) - Simple image loader library built from scratch on top of basic. `HttpURLConnection`
- * [MainActivity](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/MainActivity.java) - The activity which brings this app together.
+ * [ImageLinksCount](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinkCount.java) - Model representing the table storing links and open counts.
+ * [ImageLinksCountDatabase](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLinksCountDatabase.java) - The `SQLiteOpenHelper` that enables a database connection.
+ * [ImageLoaderLibrary](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/ImageLoaderLibrary.java) - Simple image loader library built on top of `HttpURLConnection`
+ * [MainActivity](https://github.com/codepath/android-sqlite-links-demo/blob/master/app/src/main/java/codepath/com/sqlitelinksdemo/MainActivity.java) - The activity which brings this whole app together.
 
-Check the following guides for more details:
+Check the following Android guides for more details:
 
- * [Sending-and-Managing-Network-Requests](http://guides.codepath.com/android/Sending-and-Managing-Network-Requests#displaying-remote-images-the-hard-way)
+ * [Sending and Managing Network Requests](http://guides.codepath.com/android/Sending-and-Managing-Network-Requests#displaying-remote-images-the-hard-way)
  * [Local Databases with SQLiteOpenHelper](http://guides.codepath.com/android/Local-Databases-with-SQLiteOpenHelper)
 
-![Screenshot](http://imgur.com/mfxDMcZ.png)
+<img src="http://imgur.com/mfxDMcZ.png" width="400" alt="demo" />

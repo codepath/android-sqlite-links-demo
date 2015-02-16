@@ -18,4 +18,6 @@ Check the following Android guides for more details:
  * [Sending and Managing Network Requests](http://guides.codepath.com/android/Sending-and-Managing-Network-Requests#displaying-remote-images-the-hard-way)
  * [Local Databases with SQLiteOpenHelper](http://guides.codepath.com/android/Local-Databases-with-SQLiteOpenHelper)
 
+Walkthrough:
+
 <img src="http://imgur.com/mfxDMcZ.png" width="400" alt="demo" />

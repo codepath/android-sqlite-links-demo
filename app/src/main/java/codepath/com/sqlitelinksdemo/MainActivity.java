@@ -1,4 +1,4 @@
-package codepath.com.myfun;
+package codepath.com.sqlitelinksdemo;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         imageView = (ImageView) findViewById(R.id.imageView);
 
         String url = "http://newsfunstyle.com/wp-content/uploads/2014/12/Jello-Jigglers.jpg";
-        new Kittens().load(url, imageView);
+        new ImageLoaderLibrary().load(url, imageView);
 
         imageLinkCountDatabase = new ImageLinksCountDatabase(this);
     }
@@ -56,7 +56,7 @@ public class MainActivity extends ActionBarActivity {
         TextView etURL = (TextView) findViewById(R.id.etURL);
         String url = etURL.getText().toString();
         if(!TextUtils.isEmpty(url)) {
-            Kittens.load(url, imageView);
+            ImageLoaderLibrary.load(url, imageView);
             ImageLinkCount row = imageLinkCountDatabase.getRecord(url);
             Toast.makeText(this, String.valueOf(row.getTimesSeen()), Toast.LENGTH_SHORT).show();
         }

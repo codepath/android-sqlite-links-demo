@@ -1,4 +1,4 @@
-package codepath.com.myfun;
+package codepath.com.sqlitelinksdemo;
 
 import android.content.ContentValues;
 import android.content.Context;

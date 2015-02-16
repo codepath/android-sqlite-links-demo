@@ -1,4 +1,4 @@
-package codepath.com.myfun;
+package codepath.com.sqlitelinksdemo;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,15 +10,15 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class Kittens {
+public class ImageLoaderLibrary {
 
-    public static Kittens kittens;
+    public static ImageLoaderLibrary imageLoaderLibrary;
 
     public static void load(String url, ImageView imageView) {
-        if (kittens == null) {
-            kittens = new Kittens();
+        if (imageLoaderLibrary == null) {
+            imageLoaderLibrary = new ImageLoaderLibrary();
         }
-        kittens.loadPrivate(url, imageView);
+        imageLoaderLibrary.loadPrivate(url, imageView);
         ImageLinksCountDatabase imageLinkCountDatabase = new ImageLinksCountDatabase(imageView.getContext());
         ImageLinkCount imageLinkCount = imageLinkCountDatabase.getOrCreate(url);
         imageLinkCount.incrementTimesSeen();

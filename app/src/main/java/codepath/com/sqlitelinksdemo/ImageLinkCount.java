@@ -1,4 +1,4 @@
-package codepath.com.myfun;
+package codepath.com.sqlitelinksdemo;
 
 public class ImageLinkCount {
     private long id;

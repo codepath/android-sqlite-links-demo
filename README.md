@@ -2,7 +2,7 @@
 
 This is a demo of how to build a basic image loading app that keeps track of the number of times each image is loaded using SQLite. This app is a useful demo of the following topics:
 
- * How to perform networking using `HttpURLConnection` to load remote images and turn them into `Bitmap`
+ * How to perform networking with `HttpURLConnection` to load remote images into `Bitmap` objects
  * How to create a database using `SQLiteOpenHelper` and create the database schema
  * How to query and update data from tables within a database using `Cursor`
 
